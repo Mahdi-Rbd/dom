@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    flex: 1;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity button {
+    margin: 0 5px;
+  }
+  
+  .delete, .like {
+    margin-left: 10px;
+  }
+  
+  .like.active {
+    color: red;
+  }
+  
+  #total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
